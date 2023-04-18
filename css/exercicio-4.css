@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+*{
+    background-color: #a3acb3;
+    color: #070606;
+    font-family: Georgia;
+    font-size: 1rem;
+}
+
+p#colaborador1 {
+    color: black;
+    background-color: pink;
+}
+
+p#colaborador2 {
+    color: white;
+    background-color: purple;
+}
+
+p#texto {
+    color: gold;
+    
+}
+.atendimento{
+    border: 1px solid red;
+    text-align: center;
+}
+.titulo{
+    color: green;
+}

@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+*{
+    background-color: #b3e9f3;
+    color: #141616;
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+img{
+    height: 300px;
+    width: 500px;
+}
+
+.titulo{
+    background-color: #6590d1;
+    text-shadow: 3px 3px #48789f;
+}
