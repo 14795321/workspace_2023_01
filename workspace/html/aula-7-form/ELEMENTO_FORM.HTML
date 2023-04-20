@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form action="#">
+        <label for="">Nome</label>
+        <input type="text" required="required" name="" id=""><br>
+        <label for="">Idade</label>
+        <input type="number" required><br>
+        <label for="">Nota</label>
+        <input type="number" required>
+        <br>
+
+        <!--  input RADIO para aprovado - reprovado - recuperação -->
+
+        <label for="">O aluno está:</label><br>
+        <input type="radio" name="status" id="aprovado">
+        <label for="">aprovado</label><br>
+
+        <input type="radio" name="status" id="reprovado">
+        <label for="">reprovado</label><br>
+
+        <input type="radio" name="status" id="recuperação">
+        <label for="">recuperação</label><br>
+
+        <!-- input CHECKBOX para exercícios concluidos -->
+
+        <label for="">Exercícios Concluidos</label><br>
+        <input type="checkbox">
+        <label for="">Exercício 1</label>
+
+        <input type="checkbox">
+        <label for="">Exercício 2</label>
+
+        <input type="checkbox">
+        <label for="">Exercício 3</label><br>
+
+        <!-- Elemento tipo RANGE -->
+
+        <label for="">Gostou do Curso?</label><br>
+        <label for="">Não</label>
+        <input type="range">
+        <label for="">sim</label><br></br>
+
+        <!-- <SELECT> E <DATALIST> -->
+
+        <label for=""> Lista de instituição</label><br>
+        <select name="" id="">
+            <option value="">IOS</option>
+            <option value="">PROA</option>
+            <option value="">GENERATION</option>
+            <option value="">RECODE</option>
+        </select><br></br>
+
+        <label>Lista de Comida</label><br>
+        <input type="text" list="Comida">
+        <datalist id="Comida">
+            <option value="">Fígado</option>
+            <option value="">Arroz</option>
+            <option value="">Feijão</option>
+            <option value="">Cebola</option>
+            <option value="">Alface</option>
+        </datalist><br></br>
+
+        <!-- TEXTAREA -->
+        <label for="">Muro das lamentações</label><br>
+        <textarea placeholder="Pode chorar" name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        
+
+
+        <input type="button" value="Enviar">
+        <input type="submit" value="Enviar"><br>
+
+
+    </form>
+
+
+</body>
+
+</html>

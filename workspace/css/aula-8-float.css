@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.praia{
+    float: left;
+}
+
+.montanha{
+    height: 400px;
+    float: right;
+}
+
+div{
+    height: 100px;
+    border: 1px solid black;
+}
+
