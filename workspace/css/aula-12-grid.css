@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "filho1 filho1 filho1" "filho2 filho2 filho2";
+}
+
+.item1 {
+    border: 1px solid red;
+    background-color: yellow;
+    grid-area: filho1;
+
+}
+
+.item2 {
+    border: 1px solid blue;
+    background-color: chocolate;
+    grid-area: filho2;
+}
+
+.item3 {
+    border: 1px solid black;
+    background-color: gray;
+    grid-area: filho3;
+}
+
+.item4 {
+    border: 1px solid green;
+    background-color: powderblue;
+    grid-area: filho4;
+}
