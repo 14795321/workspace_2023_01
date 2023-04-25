@@ -3,8 +3,8 @@
 .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "filho1 filho1 filho1" "filho2 filho2 filho2";
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-areas: "filho1 filho1 filho1 filho1" "filho2 filho2 filho2 filho2";
 }
 
 .item1 {
