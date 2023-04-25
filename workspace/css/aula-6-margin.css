@@ -1,0 +1,14 @@
+@charset "utf-8" ;
+#cruzeiro{
+    border: 1px solid black;
+    background: wheat;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
