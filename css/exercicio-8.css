@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+body{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.primeira{
+    border: 2px solid #000;
+    height: 400px;
+}
+
+.theo{
+    float: left
+}
+
+img{
+    float: right;
+}
+
+.chur{
+    float: none;
+}
