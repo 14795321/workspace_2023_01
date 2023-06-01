@@ -48,4 +48,3 @@ ul.style.listStyle = 'none';
 
 // Marcadores numéricos
 ul.style.listStyle = 'decimal inside';
-
