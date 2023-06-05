@@ -3,7 +3,10 @@ const btn = document.querySelector('.btn');
 btn.style.background = 'red';
 
 // Busca pelos elementos do Formulário
-const myForm = document.querySelector('#my-form');
+const m
+
+
+yForm = document.querySelector('#my-form');
 const nameInput = document.querySelector('#name');
 const emailInput = document.querySelector('#email');
 const horario = document.querySelector('#horario');
@@ -50,4 +53,3 @@ emailInput.addEventListener('change', (e) => {
         setTimeout(() => msg.remove(), 3000);
     }
 });
-
